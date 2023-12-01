@@ -1,93 +1,81 @@
-* bolotas {
-
-position: absolute;
-width: 2181px;
-height: 4999px;
-left: -559px;
-top: -340px;
-}
-
-
-* Ellipse2 {
-
-position: absolute;
-left: 11.23%;
-right: 34.98%;
-top: 0%;
-bottom: 77.42%;
-
-background: rgba(211, 250, 214, 0.66);
-mix-blend-mode: multiply;
-}
-
-* Ellipse6 {
-
-position: absolute;
-left: 46.22%;
-right: 0%;
-top: 57.19%;
-bottom: 20.22%;
-
-background: rgba(255, 184, 183, 0.66);
-mix-blend-mode: multiply;
-}
-
-* Ellipse5 {
-
-position: absolute;
-left: 25.63%;
-right: 31.77%;
-top: 46.95%;
-bottom: 35.17%;
-
-background: rgba(255, 184, 183, 0.66);
-mix-blend-mode: multiply;
-}
-
-* Ellipse4 {
-
-position: absolute;
-left: 26.78%;
-right: 46.58%;
-top: 25.21%;
-bottom: 63.61%;
-
-background: rgba(211, 250, 214, 0.66);
-mix-blend-mode: multiply;
-}
-
-* Ellipse3 {
-
-position: absolute;
-left: 52.87%;
-right: 4.08%;
-top: 10.6%;
-bottom: 71.41%;
-
-background: rgba(211, 250, 214, 0.66);
-mix-blend-mode: multiply;
-}
-
-* Ellipse7 {
-
-position: absolute;
-left: 0%;
-right: 46.22%;
-top: 77.42%;
-bottom: 0%;
-
-background: rgba(255, 184, 183, 0.66);
-mix-blend-mode: multiply;
-}
-
-* Ellipse2 {
-
-position: absolute;
-left: 57.96%;
-right: 21%;
-top: 35.63%;
-bottom: 55.53%;
-
-background: rgba(255, 184, 183, 0.66);
-mix-blend-mode: multiply;
-}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    content: "";
+    width: 100vw;
+    height: 4017px;
+    background: rgba(211, 250, 214, 0.66);
+  }
+  
+  .Ellipse2,
+  .Ellipse6,
+  .Ellipse5,
+  .Ellipse4,
+  .Ellipse3,
+  .Ellipse7,
+  .Ellipse8 {
+    position: absolute;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+  }
+  
+  .Ellipse2 {
+    width: 81%; 
+    padding-top: 81%; 
+    top: -8%;
+    left: -10%;
+    background: rgba(211, 250, 214, 0.66);
+  }
+  
+  
+  
+  
+  .Ellipse3 {
+    width: 66%; 
+    padding-top: 66%; 
+    left: 52.87%;
+    top: 10.6%;
+    background: rgba(211, 250, 214, 0.66);
+  }
+  
+  .Ellipse4 {
+    width: 40%; 
+    padding-top: 40%; 
+    left: 2%;
+    top: 25%;
+    background: rgba(211, 250, 214, 0.66);
+  }
+  
+  .Ellipse5 {
+    width: 65%; 
+    padding-top: 65%;
+    top: 50%;
+    background: rgba(255, 184, 183, 0.66);
+  }
+  
+  .Ellipse6 {
+    width: 80%; 
+    padding-top: 80%;
+    left: 46.22%;
+    top: 57.19%;
+    background: rgba(255, 184, 183, 0.66);
+  }
+  
+  .Ellipse7 {
+    width: 80%; 
+    padding-top: 80%;
+    left: 0%;
+    top: 80%;
+    background: rgba(255, 184, 183, 0.66);
+  }
+  
+  .Ellipse8 {
+    width: 36%; 
+    padding-top: 36%;
+    right: 20%;
+    top: 36%;
+    background: rgba(255, 184, 183, 0.66);
+  }
+  
