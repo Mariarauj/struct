@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import styles from "@/styles/Home.module.css"
-import background from '@/styles/bolotas.module.css'
-import sushi from "@/Componentes/comidas"
 
 export default function Home() {
   return (
