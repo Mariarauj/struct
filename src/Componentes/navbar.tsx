@@ -6,7 +6,7 @@ export default function Navbar(){
             <ul className={styles.ul}>
                 <li className={styles.li}>Home</li>
                 <li className={styles.li}>Contatos</li>
-                <li className={styles.li}>Carápio</li>
+                <li className={styles.li}>Cardápio</li>
                 <li className={styles.li}>Entrar</li>
                 <li className={styles.li}>Registrar</li>
             </ul>
