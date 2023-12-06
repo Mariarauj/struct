@@ -1,12 +1,10 @@
 .navbar{
     width: 100vw;
-    height: 6rem;
-    display: flex;
+    height: 100%;
+    display: fixed;
     align-items: center;
-    background-color: rgb(177, 27, 27);
-    border-bottom: 0px solid rgb(29, 228, 228);
+    border-bottom: 0px solid rgb(228, 29, 29);
     font-weight: lighter;
-    justify-content: space-evenly;
     box-shadow: rgba(0, 0, 0, 45) 0px 0px 0px 0px;
     position: relative;
     
@@ -14,7 +12,8 @@
 .ul {
     display: flex;
     flex-direction: row;
-    margin: 0 2rem;
+    margin: 0 0rem;
+    justify-content: space-between;
 }
 }
 
