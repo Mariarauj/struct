@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Style from '@/styles/home.module.css'
 import Navbar from '@/Componentes/navbar'
-import Bolotas from './bolotas'
+import Bolotas from '../Componentes/bolotas'
+import sushi from '../Componentes/comidas'
 
 export default function Home() {
   return (

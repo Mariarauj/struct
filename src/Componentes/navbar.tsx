@@ -9,8 +9,8 @@ export default function Navbar(){
                 <li className={styles.li}>Cardápio</li>
                 <li className={styles.li}>Entrar</li>
                 <li className={styles.li}>Registrar</li>
-            </ul>
-           
+            </ul> 
+            <img src='' alt="" />
         </nav>
         
     )
